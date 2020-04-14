@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;900&display=swap');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+*{padding: 0px;margin: 0px;}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.top_header{
+	background-color: #0872B9;
+	padding: 7px;
+	margin: 0px;
+	width: 100%;
+	height: 20px;
+	clear: both;
+}
+ .container{
+	width: 80%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.top_header .container .left{
+	width: 49%;
+	float: left;
+}
+.top_header .container .right{
+	width: 49%;
+	float: left;
+}
+.top_header .container .left p{
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+
+}
+.top_header .container .right ul{
+	float: right;
+	width: 23%;
+	margin: 0px;
+	padding: 0px;
+
+}
+.top_header .container .right ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 6%;
+
+
+}
+.top_header .container .right ul li a{
+	list-style-type: none;
+	display: block;
+	font-size: 14px;
+	color: white;
+	transition: 0.3s;
+}
+.top_header .container .right ul li a:hover{
+	color: black;
+}
+.menuBar{
+	width: 100%;
+	height: 50px;
+	padding: 15px 0px;
+	clear: both;
+	overflow: hidden;
+
+}
+.menuBar .left{
+	width: 30%;
+	float: left;
+}
+.menuBar .right{
+	width: 70%;
+	float:right;
+
+}
+.menuBar .right ul{
+	float: right;
+	margin-top: 18px;
+	padding: 0px;
+}
+.menuBar .right ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.menuBar .right ul li a{
+
+}
+
+.heroArea{
+	width: 100%;
+	height: 450px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/slider.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -10;
+}
+.heroArea:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: black;
+	opacity: .5;
+	z-index:-5;
+}
+.heroArea .right{
+	width: 50%;
+	float: right;
+	border: 1px solid red;
+	z-index: 1000;
+	text-align: right;
+}
+
